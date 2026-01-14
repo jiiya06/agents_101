@@ -1,8 +1,17 @@
-# Overview
+### Overview 
 
-This is my first, basic, python-based agent. Basically a 101 to the journey of building agent systems, not much—but I learnt a lot.
-The agent automates and performs a basic task to create a file and a print Hello world, create log files, check the validity and verify status using Pytest, and creating new, templated, empty task directories, if it already doesn't exist. Also implemented basic docker and setuptools. Work still in progress, updates being pushed.
+`terminal_bench` is a **basic Python-based agent system** built as a learning project and first step into agent-oriented workflows.
 
+The agent automates simple tasks such as:
+- Creating files and directories
+- Printing a “Hello World” output
+- Generating log files
+- Verifying execution status using Pytest
+- Creating new, templated task directories if they do not already exist
+
+This project is intentionally minimal and exploratory. Work is still in progress, and updates are being pushed incrementally.
+
+---
 
 ## Project Structure
 ```
@@ -24,13 +33,15 @@ terminal_bench/
 ```
 
 ## Installation
+### Local (Virtual Environment)
+
 ```bash
 cd terminal_bench
 python3 -m venv .venv
 source .venv/bin/activate
-pip install pytest
+pip install -r requirements.txt
+pip install -e .
 ```
-
 ## Usage
 
 ### Running a Task
@@ -45,6 +56,11 @@ tsk
 ```
 
 When prompted, enter the task name (e.g., `task_helloworld`).
+
+### Docker
+```bash
+docker-compose up --build
+```
 
 ### Creating a New Task
 
@@ -72,3 +88,8 @@ Each task follows a standard structure:
 - `solutions/` - Reference implementations
 - `main.py` - Orchestrates agent execution and testing
 - `tasks.yaml` - Describes task requirements
+
+### Notes
+- This project is a learning exercise, not a production-ready framework.
+- Structure may change as experimentation continues.
+- Contributions, suggestions, and feedback are welcome.
