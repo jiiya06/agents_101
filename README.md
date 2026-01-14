@@ -1,21 +1,23 @@
 # agents_101
 
-Heyy there! `agents_101` is a **foundational Python project** focused on understanding how agent-oriented systems are **structured, packaged, tested, and executed**, at a terminal level.
+Heyy there! 
 
-Rather than focusing on complex code, this repository serves as a **learning and experimentation environment** for the structural patterns, tooling, and workflows that underpin larger and more capable agent systems.
+`agents_101` is a **foundational Python project** focused on understanding how agent-oriented systems are **structured, packaged, tested, and executed**, all at a terminal level!!
+
+Rather than focusing on complex code, this repository serves as a **learning and experimentation environment** for implementing structural patterns, tooling, and workflows of real time systems !
 
 The project focuses on simple tasks such as:
 - Agent automating creation of files and directories
-- Agent printing an output, eg., "hello world"
-- Generating log files
+- Agent printing an output.
+- Generating log files using LOGGER
 - Verifying execution status using Pytest
 - Creating new, templated task directories if they do not already exist
 - Use of UUIDs for task and execution identification  
 - Packaging and distribution concepts (e.g. setuptools)  
-- Environment isolation and containerization (Docker)
+- Environment isolation and containerization using Docker
 
 
-This project is intentionally minimal and exploratory. The emphasis is on **correct structure, reproducibility, and extensibility**.
+This project is intentionally minimal and for experimental purposes. The emphasis is more on **correct structure, reproducibility, and extensibility**.
 Work is still in progress, and updates are being pushed incrementally.
 
 ---
@@ -100,4 +102,4 @@ Each task follows a standard structure:
 ### Notes
 - This project is a learning exercise, not a production-ready framework.
 - Structure may change as experimentation continues.
-- Contributions, suggestions, and feedback are welcome.
+- Contributions, suggestions, and feedback are welcome!!!! Thankyou :)
