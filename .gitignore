@@ -1,9 +1,7 @@
-# Python
 __pycache__/
 *.pyc
-
-# Virtual environment
-.venv/
-
-# OS files
-.DS_Store
+*.pyo
+build/
+dist/
+*.egg-info/
+bdist*/
