@@ -6,3 +6,4 @@ dist/
 *.egg-info/
 bdist*/
 .venv/
+core/*.log

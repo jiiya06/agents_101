@@ -2,7 +2,6 @@ import sys
 from pathlib import Path
 import uuid
 import logging
-from pathlib import Path
 
 CORE_DIR = Path(__file__).resolve().parents[2] / "core"
 CORE_DIR.mkdir(exist_ok=True)
