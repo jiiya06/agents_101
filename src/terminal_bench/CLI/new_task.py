@@ -3,7 +3,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-from terminal_bench.core.task_creator import main
+from core.task_creator import main
 
 def create_task(task_name):
     main(task_name)

@@ -1,0 +1,11 @@
+services:
+  terminal-bench:
+    image: terminal-bench
+    build:
+      context: .
+      network: host
+    network_mode: host
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./tasks:/app/tasks
