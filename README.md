@@ -1,15 +1,22 @@
-### Overview 
+# agents_101
 
-`terminal_bench` is a **basic Python-based agent system** built as a learning project and first step into agent-oriented workflows.
+`agents_101` is a **foundational Python project** focused on understanding how agent-oriented systems are **structured, packaged, tested, and executed**, at a terminal level.
 
-The agent automates simple tasks such as:
-- Creating files and directories
-- Printing a “Hello World” output
+Rather than emphasizing complex agent behavior, this repository serves as a **learning and experimentation environment** for the architectural patterns, tooling, and workflows that underpin larger and more capable agent systems.
+
+The project focuses on simple tasks such as:
+- Agent automating creation of files and directories
+- Agent printing an output, eg., "hello world"
 - Generating log files
 - Verifying execution status using Pytest
 - Creating new, templated task directories if they do not already exist
+- Use of UUIDs for task and execution identification  
+- Packaging and distribution concepts (e.g. setuptools)  
+- Environment isolation and containerization (Docker)
 
-This project is intentionally minimal and exploratory. Work is still in progress, and updates are being pushed incrementally.
+
+This project is intentionally minimal and exploratory. The emphasis is on **correct structure, reproducibility, and extensibility**.
+Work is still in progress, and updates are being pushed incrementally.
 
 ---
 
