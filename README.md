@@ -1,8 +1,8 @@
 # agents_101
 
-`agents_101` is a **foundational Python project** focused on understanding how agent-oriented systems are **structured, packaged, tested, and executed**, at a terminal level.
+Heyy there! `agents_101` is a **foundational Python project** focused on understanding how agent-oriented systems are **structured, packaged, tested, and executed**, at a terminal level.
 
-Rather than emphasizing complex agent behavior, this repository serves as a **learning and experimentation environment** for the architectural patterns, tooling, and workflows that underpin larger and more capable agent systems.
+Rather than focusing on complex code, this repository serves as a **learning and experimentation environment** for the structural patterns, tooling, and workflows that underpin larger and more capable agent systems.
 
 The project focuses on simple tasks such as:
 - Agent automating creation of files and directories
@@ -52,21 +52,22 @@ pip install -e .
 ## Usage
 
 ### Running a Task
-
-Execute an existing task and run its test suite:
+1. Legacy Way
 ```bash
 python CLI/run_task.py 
 
-OR
-
+When prompted, enter the task name (e.g., `task_helloworld`).
+```
+2. Setuptools
+```bash
+pip install -e .
 tsk
 ```
 
-When prompted, enter the task name (e.g., `task_helloworld`).
-
-### Docker
+3. Docker
 ```bash
-docker-compose up --build
+docker build -t tetminal-bench .
+docker run terminal-bench <task_name>
 ```
 
 ### Creating a New Task
