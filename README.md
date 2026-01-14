@@ -1,6 +1,7 @@
 # Overview
 
-Hey there! This is my first, small, python-based agent. Agent automates and performs a basic task to create a file and a print Hello world, create log files, check the validity and status using Pytest, and creating new, templated, empty task directories, if it already doesn't exist. Work still in progress, updates being pushed.
+Hey there! This is my first, small, python-based agent. Basically a 101 to my journey on github, not much but I learnt a lot.
+Agent automates and performs a basic task to create a file and a print Hello world, create log files, check the validity and status using Pytest, and creating new, templated, empty task directories, if it already doesn't exist. Work still in progress, updates being pushed.
 
 
 ## Project Structure
