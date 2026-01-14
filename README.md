@@ -1,26 +1,26 @@
 # Overview
 
-Hey there! This is my first, small, python-based agent. Basically a 101 to my journey on github, not much but I learnt a lot.
-Agent automates and performs a basic task to create a file and a print Hello world, create log files, check the validity and status using Pytest, and creating new, templated, empty task directories, if it already doesn't exist. Work still in progress, updates being pushed.
+This is my first, basic, python-based agent. Basically a 101 to the journey of building agent systems, not much—but I learnt a lot.
+The agent automates and performs a basic task to create a file and a print Hello world, create log files, check the validity and verify status using Pytest, and creating new, templated, empty task directories, if it already doesn't exist. Also implemented basic docker and setuptools. Work still in progress, updates being pushed.
 
 
 ## Project Structure
 ```
 terminal_bench/
 ├── CLI/
-│   ├── new_task.py         # Create new benchmark tasks
-│   ├── run_task.py         # Execute tasks and run tests
-│   └── status_checker.py   # Check task execution status
+│   ├── new_task.py         
+│   ├── run_task.py         
+│   └── status_checker.py  
 ├── core/
-│   └── task_creator.py     # Task scaffolding utilities
+│   └── task_creator.py     
 └── tasks/
-    └── task_helloworld/    # Example task
-        ├── agents/         # Agent implementations
-        ├── results/        # Task outputs
-        ├── solutions/      # Reference solutions
-        ├── tests/          # Test cases
-        ├── main.py         # Task execution logic
-        └── tasks.yaml      # Task description
+    └── task_helloworld/   
+        ├── agents/        
+        ├── results/       
+        ├── solutions/      
+        ├── tests/         
+        ├── main.py         
+        └── tasks.yaml      
 ```
 
 ## Installation
@@ -31,7 +31,7 @@ source .venv/bin/activate
 pip install pytest
 ```
 
-## Usage of task_helloworld
+## Usage
 
 ### Running a Task
 
